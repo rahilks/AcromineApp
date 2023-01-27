@@ -6,11 +6,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.rahil.acronymapp.data.Acromine
-import com.rahil.acronymapp.data.AcromineResponse
 import com.rahil.acronymapp.data.LongForm
 import com.rahil.acronymapp.network.AcromineRetrofitClient
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.update
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
